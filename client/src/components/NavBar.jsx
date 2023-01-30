@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <div className="flex px-4 py-3 md:px-20 transition-all justify-between h-20">
+    <nav className="flex px-4 py-3 md:px-20 transition-all justify-between h-20">
       <div className="flex items-center gap-10">
         <img src="/pocketlint-logo.png" alt="pocketlint logo" width="156"/>
         <div>
@@ -10,7 +10,7 @@ const NavBar = () => {
       <div className="flex items-center">
         <img src="/shopping-cart.svg"/>
       </div>
-    </div>
+    </nav>
   )
 }
 

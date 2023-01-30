@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className="flex flex-col px-4 md:px-20 py-16 transition-all">
+    <footer className="flex flex-col px-4 md:px-20 py-16 transition-all">
       <div className='flex flex-wrap justify-between gap-12'>
         <div className='space-y-8'>
           <img src="/pocketlint-logo.png" alt="pocketlint logo" width="156" />
@@ -43,7 +43,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </footer>
   )
 }
 
