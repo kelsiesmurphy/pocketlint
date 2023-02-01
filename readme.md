@@ -38,6 +38,7 @@ PocketLint is a fictional minimal e-commerce site that sells high quality items 
 * MongoDB
 * Express.js
 * NodeJS
+* TailwindCSS
 
 
 
