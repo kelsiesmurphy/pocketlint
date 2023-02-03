@@ -33,13 +33,13 @@ const Footer = () => {
         <p>© 2023 Pocket Lint. All rights reserved.</p>
         <ul className='flex gap-4'>
           <li>
-            <Link to="/terms">Terms</Link>
+            <Link to="/terms" className="text-slate-600 hover:text-slate-800">Terms</Link>
           </li>
           <li>
-            <Link to="/privacy">Privacy</Link>
+            <Link to="/privacy" className="text-slate-600 hover:text-slate-800">Privacy</Link>
           </li>
           <li>  
-            <Link to="/cookies">Cookies</Link>
+            <Link to="/cookies" className="text-slate-600 hover:text-slate-800">Cookies</Link>
           </li>
         </ul>
       </div>
