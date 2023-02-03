@@ -8,6 +8,7 @@
       <a href="#about">About</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#reflections">Reflections</a></li>
       </ul>
     </li>
     <li>
@@ -38,8 +39,11 @@ PocketLint is a fictional minimal e-commerce site that sells high quality items 
 * MongoDB
 * Express.js
 * NodeJS
+* TailwindCSS
 
-
+<!-- REFLECTIONS -->
+## Reflections
+In using TailwindCSS for the first time, I have discovered its pros and cons, and have come to the conclusion that I would use it again for personal projects in the future. I also have increased my knowledge in MongoDB and Express, and the Stripe API has very thorough documentation. This was a fun project to do, and the next step would probably be to build out an admin dashboard.
 
 <!-- GETTING STARTED -->
 ## Getting Started
