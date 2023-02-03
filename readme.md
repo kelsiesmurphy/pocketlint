@@ -40,7 +40,9 @@ PocketLint is a fictional minimal e-commerce site that sells high quality items 
 * NodeJS
 * TailwindCSS
 
-
+<!-- REFLECTIONS -->
+## Reflections
+I believe we achieved a great deal as a team within the timeframe, and there were several opportunities to mentor other members of the team and be mentored back. In a future project, I intend to focus more closely on the testing aspect of the project.
 
 <!-- GETTING STARTED -->
 ## Getting Started
