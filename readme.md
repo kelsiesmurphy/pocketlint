@@ -43,7 +43,7 @@ PocketLint is a fictional minimal e-commerce site that sells high quality items 
 
 <!-- REFLECTIONS -->
 ## Reflections
-I believe we achieved a great deal as a team within the timeframe, and there were several opportunities to mentor other members of the team and be mentored back. In a future project, I intend to focus more closely on the testing aspect of the project.
+In using TailwindCSS for the first time, I have discovered its pros and cons, and have come to the conclusion that I would use it again for personal projects in the future. I also have increased my knowledge in MongoDB and Express, and the Stripe API has very thorough documentation. This was a fun project to do, and the next step would probably be to build out an admin dashboard.
 
 <!-- GETTING STARTED -->
 ## Getting Started
