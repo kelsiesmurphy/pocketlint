@@ -22,8 +22,6 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT -->
 ### PocketLint
 
@@ -41,6 +39,7 @@ https://user-images.githubusercontent.com/77012426/216736152-d4d81a26-46d2-4bf5-
 * Express.js
 * NodeJS
 * TailwindCSS
+* Stripe Checkout
 
 <!-- REFLECTIONS -->
 ## Reflections
@@ -50,20 +49,45 @@ In using TailwindCSS for the first time, I have discovered its pros and cons, an
 ## Getting Started
 ### Prerequisites
 
-To run this app, you must run: 
-* npm install
+To run this app, you must run the following in the client directory: 
+* pnpm install
   ```sh
-  npm install
+  pnpm install
   ```
 
 * run in development
   ```sh
-  npm run dev
+  pnpm run dev
+  ```
+  
+  Then you must navigate to the server directory and run the following: 
+* pnpm install
+  ```sh
+  pnpm install
+  ```
+  
+* seed the database
+  ```sh
+  mongosh < db/seeds.js
   ```
 
+* get the server running
+  ```sh
+  pnpm run server:dev
+  ```
 Note: To stop the server enter ctrl + c in your Terminal
 
+### Important note about Stripe integration:
+To get the Stripe functionality working, you must have a Stripe account and set up the API key yourself to run locally in the test environment I would not recommend running this project with the Stripe Checkout integration in any other way than locally in a development environment. 
+For this project, I did not save the API key in a .env file as [this is insecure in a React application](https://create-react-app.dev/docs/adding-custom-environment-variables/), and I also did not save it in the database. 
+When running locally, I created a secret.js file in the client directory, with the following code:
+  ```sh
+  const secret = 'YOUR-STRIPE-PK-TEST-KEY-HERE'
 
+  export default secret
+  ```
+If you have another way to handle this more effectively, I would be eager to learn about it. 
+In future, I intend to enhance the security and functionality of the payments, perhaps with a checkout feature.
 
 <!-- CONTACT -->
 ## Contact
