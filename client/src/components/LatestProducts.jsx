@@ -21,7 +21,7 @@ const LatestProducts = ({ allProducts }) => {
               </p>
           </div>
           <div>
-          <Link to="/all"><button className="bg-slate-700 px-4 py-3 hover:text-white hover:bg-slate-800 transition-colors cursor-pointer text-white rounded-none">View products</button></Link>
+          <Link to="/products"><button className="bg-slate-700 px-4 py-3 hover:text-white hover:bg-slate-800 transition-colors cursor-pointer text-white rounded-none">View products</button></Link>
           </div>
         </div>
         <ul className="flex overflow-auto flex-wrap lg:flex-nowrap gap-8 px-4 md:px-20 justify-center">

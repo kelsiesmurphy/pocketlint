@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import './index.css'
 import Root from './routes/root'
-import All from './routes/all'
+import All from './routes/Products'
 import ErrorPage from './ErrorPage'
+import ProductPage from './routes/ProductPage'
 
 const router = createBrowserRouter([
   {
@@ -13,8 +14,13 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/all",
+    path: "/products",
     element: <All />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/products/:id",
+    element: <ProductPage />,
     errorElement: <ErrorPage />,
   },
 ]);

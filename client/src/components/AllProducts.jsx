@@ -11,7 +11,7 @@ const AllProducts = ({ allProducts }) => {
 
   return (
     <div className="flex flex-col">
-        <div className="pt-24 pb-16 px-4 md:px-20 flex flex-wrap gap-4 justify-between">
+        <div className="pt-16 pb-16 px-4 md:px-20 flex flex-wrap gap-4 justify-between">
           <div className="space-y-2">
               <h5 className="text-md font-semibold">The Collection</h5>
               <h2 className="text-2xl md:text-4xl text-slate-900 font-semibold">All Products</h2>
