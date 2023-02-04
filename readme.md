@@ -78,13 +78,13 @@ To run this app, you must run the following in the client directory:
   ```
 Note: To stop the server enter ctrl + c in your Terminal
 
-==Important: To get the Stripe functionality working, you must have a Stripe account and set up the API key yourself to run locally in the test environment. For this project, I did not save the API key in a .env file as this is insecure in a React application, and I also did not save it in the database. When running locally, I created a secret.js file in the client directory, with the following code: ==
+	> blockquoteImportant: To get the Stripe functionality working, you must have a Stripe account and set up the API key yourself to run locally in the test environment. For this project, I did not save the API key in a .env file as [this is insecure in a React application](https://create-react-app.dev/docs/adding-custom-environment-variables/), and I also did not save it in the database. When running locally, I created a secret.js file in the client directory, with the following code:
   ```sh
   const secret = 'YOUR-STRIPE-PK-TEST-KEY-HERE'
 
   export default secret
   ```
-==If you have another way to do this more effectively, I would be eager to learn about it. In future, I intend to enhance the security and functionality of the payments, perhaps with a checkout feature.==
+	> blockquoteIf you have another way to handle this more effectively, I would be eager to learn about it. In future, I intend to enhance the security and functionality of the payments, perhaps with a checkout feature.
 
 <!-- CONTACT -->
 ## Contact
