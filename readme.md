@@ -29,7 +29,9 @@
 
 PocketLint is a fictional minimal e-commerce site that sells high quality items you would carry everyday in your pocket.
 
-<img align="center" src="https://user-images.githubusercontent.com/77012426/215357993-4820f91b-c4f4-4cba-ab64-1fdffa60bfcc.jpg" alt="Pocketlint landing page home">
+<!-- <img align="center" src="https://user-images.githubusercontent.com/77012426/215357993-4820f91b-c4f4-4cba-ab64-1fdffa60bfcc.jpg" alt="Pocketlint landing page home"> -->
+
+https://user-images.githubusercontent.com/77012426/216735830-1be83be7-fec4-4c48-a196-3b6f887eac58.mp4
 
 
 <!-- BUILT WITH -->
