@@ -36,9 +36,6 @@ const ProductPage = () => {
       // }
 
   async function handleCheckout() {
-    // toast('Added to basket!', {
-    //   icon: '🛒',
-    // });
     console.log("running");
     const stripe = await getStripe();
     const { error } = await stripe.redirectToCheckout({
