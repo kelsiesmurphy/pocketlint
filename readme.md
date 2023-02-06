@@ -79,8 +79,7 @@ Note: To stop the server enter ctrl + c in your Terminal
 
 ### Important note about Stripe integration:
 To get the Stripe functionality working, you must have a Stripe account and set up the API key yourself to run locally in the test environment I would not recommend running this project with the Stripe Checkout integration in any other way than locally in a development environment. 
-For this project, I did not save the API key in a .env file as [this is insecure in a React application](https://create-react-app.dev/docs/adding-custom-environment-variables/), and I also did not save it in the database. 
-When running locally, I created a secret.js file in the client directory, with the following code:
+If you want to duplicate this project, including the Stripe functionality, create an arbitrary javascript file (secret.js for example) in the client directory, with the following code:
   ```sh
   const secret = 'YOUR-STRIPE-PK-TEST-KEY-HERE'
 
